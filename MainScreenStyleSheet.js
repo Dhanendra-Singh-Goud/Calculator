@@ -1,0 +1,90 @@
+module.exports ={
+    Displaycontent:{
+        marginTop:60,
+        width:"100%",
+        height:"100%",
+        borderRadiius:10,
+        backgroundColor:"#F8F8FF",
+        alignItems:"center",
+        flexDirection:"column",
+    },
+    Display_uppertxt:{
+        elevation:10,
+        width:"95%",
+        backgroundColor:"#F8F8FF",
+        borderRadiius:10,
+        display:"flex",
+        marginBottom:10
+    },
+    uppertxt_Input:{
+        textAlign:'right',
+        fontSize:50,
+        borderRadius:20
+    },
+    outer_dialerpad:{
+        width:"100%",
+        height:"65%",
+        display:"flex",
+        marginTop:10,
+        marginBottom:10,
+
+    },
+    dailerpad_row:{
+        display:"flex",
+        flexDirection:'row',
+        backgroundColor:"#F8F8FF",
+        justifyContent:"space-between",
+        alignItems:"center",
+        width:"100%",
+      
+        padding:10,
+        flex:1,
+        marginBottom:40
+    },
+    btn1:{
+        width:85,
+        height:65,
+        backgroundColor:'#FF5757',
+        elevation:10,
+        overflow:'hidden',
+        alignItems:'center',
+        textAlign:'center',
+        // textContent:"center",
+        justifyContent:'center',
+        borderRadius:70
+    },
+    txt1:{
+        fontSize:30,
+        borderRadius:20,
+        overflow:'hidden',
+        alignItems:'center',
+        textAlign:'center',
+        // textContent:"center",
+        justifyContent:'center',
+
+    },
+    btn2:{
+        backgroundColor:"#999999",
+        width:85,
+        height:65,
+        elevation:10,
+        overflow:'hidden',
+        alignItems:'center',
+        textAlign:'center',
+        // textContent:"center",
+        justifyContent:'center',
+        borderRadius:30
+    },
+    btn3:{
+        width:77,
+        height:60,
+        backgroundColor:'#F8F8FF',
+        elevation:10,
+        overflow:'hidden',
+        alignItems:'center',
+        textAlign:'center',
+        borderRadius:12,
+        justifyContent:'center',
+    }
+
+}
